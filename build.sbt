@@ -43,3 +43,7 @@ libraryDependencies ++= Seq(
 // add any Spark Package dependencies using spDependencies.
 // e.g. spDependencies += "databricks/spark-avro:0.1"
 spDependencies += "databricks/spark-csv:1.3.0-s_2.10"
+
+// addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse-plugin" % "2.1.0-RC1")
+
+// EclipseKeys.createSrc := EclipseCreateSrc.Default + EclipseCreateSrc.Resource

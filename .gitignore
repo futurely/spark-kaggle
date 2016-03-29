@@ -1,0 +1,9 @@
+/bin/
+.cache-main
+.classpath
+.project
+.settings
+project/project
+project/target
+target
+*.swp
