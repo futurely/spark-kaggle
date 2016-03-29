@@ -33,6 +33,7 @@ import org.apache.spark.sql.functions.col
 import org.apache.spark.sql.types._
 
 /*
+ * https://www.kaggle.com/c/avazu-ctr-prediction
  * https://issues.apache.org/jira/browse/SPARK-13239
  *
  * Code is from:

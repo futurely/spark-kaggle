@@ -1,6 +1,7 @@
 package org.apache.spark.examples.kaggle
 
 /**
+ * https://www.kaggle.com/c/avito-context-ad-clicks
  * https://issues.apache.org/jira/browse/SPARK-10935
  * 
  * Code copied from:

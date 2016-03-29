@@ -27,8 +27,9 @@ import org.apache.spark.ml.tuning.CrossValidator
 import org.apache.spark.ml.tuning.ParamGridBuilder
 
 /**
+ * https://www.kaggle.com/c/criteo-display-ad-challenge
  * https://issues.apache.org/jira/browse/SPARK-10870
- * 
+ *
  * Rewrite the Python pipeline proposed by Manisha S in Scala
  * https://developer.ibm.com/spark/blog/2016/02/22/predictive-model-for-online-advertising-using-spark-machine-learning-pipelines/
  * 

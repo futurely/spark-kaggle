@@ -10,13 +10,14 @@ import org.apache.spark.sql.{ SQLContext, Row }
 import org.apache.spark.ml.classification.{ DecisionTreeClassifier, LogisticRegression }
 
 /**
+ * https://www.kaggle.com/c/sf-crime
  * https://issues.apache.org/jira/browse/SPARK-10055
  * Copied from:
  * https://github.com/Lewuathe/spark-kaggle-examples
  * 
  * Created by sasakikai on 8/24/15.
  */
-object SfCrimeClassification {
+object SanFranciscoCrimeClassification {
 
   def labelToVec(label: Int, labels: Array[String], sortedLabels: Array[String]): Array[Int] = {
     require(labels.length == sortedLabels.length)

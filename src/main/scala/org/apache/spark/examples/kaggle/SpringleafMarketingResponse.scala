@@ -8,6 +8,7 @@ import org.apache.spark.sql.functions._
 import org.apache.spark.sql.types._
 
 /**
+ * https://www.kaggle.com/c/springleaf-marketing-response
  * https://issues.apache.org/jira/browse/SPARK-10513
  * Copied from:
  * https://github.com/yanboliang/Springleaf
