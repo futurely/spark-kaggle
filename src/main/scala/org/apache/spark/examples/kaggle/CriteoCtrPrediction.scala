@@ -26,9 +26,14 @@ import org.apache.spark.ml.evaluation.BinaryClassificationEvaluator
 import org.apache.spark.ml.tuning.CrossValidator
 import org.apache.spark.ml.tuning.ParamGridBuilder
 
-/*
- * Mainly follow the pipeline proposed by Manisha S.
+/**
+ * https://issues.apache.org/jira/browse/SPARK-10870
+ * 
+ * Rewrite the Python pipeline proposed by Manisha S in Scala
  * https://developer.ibm.com/spark/blog/2016/02/22/predictive-model-for-online-advertising-using-spark-machine-learning-pipelines/
+ * 
+ * Use some code from:
+ * https://github.com/yu-iskw/click-through-rate-prediction
  */
 object CriteoCtrPrediction {
   private val schema = StructType(Array(

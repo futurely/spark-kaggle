@@ -1,5 +1,7 @@
 # Try Kaggle's Click Through Rate Prediction with Spark Pipeline API
 
+https://issues.apache.org/jira/browse/SPARK-9941
+
 The purpose of this Spark Application is to test Spark Pipeline API with real data for [SPARK-13239](https://issues.apache.org/jira/browse/SPARK-13239).
 So, we tested ML Pipeline API with Kaggle's click-through rate prediction.
 
