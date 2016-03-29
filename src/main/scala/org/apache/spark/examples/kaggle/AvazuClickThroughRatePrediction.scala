@@ -32,8 +32,14 @@ import org.apache.spark.sql.{Row, SQLContext, SaveMode}
 import org.apache.spark.sql.functions.col
 import org.apache.spark.sql.types._
 
+/*
+ * https://issues.apache.org/jira/browse/SPARK-13239
+ *
+ * Code is from:
+ * https://github.com/yu-iskw/click-through-rate-prediction
+ */
 // scalastyle:off println
-object ClickThroughRatePrediction {
+object AvazuClickThroughRatePrediction {
 
   private val trainSchema = StructType(Array(
     StructField("id", StringType, false),
